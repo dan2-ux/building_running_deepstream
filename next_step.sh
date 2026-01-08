@@ -115,3 +115,22 @@ else
 fi
 
 echo "Setup complete! You can now run DeepStream with YOLO11."
+
+
+# This is the .sh file that will automatically do all the manual tasks below
+
+# vim config_infer_primary_yoloV8.txt 
+# ESC 
+#:w # for save 
+# :wq # for save and quit 
+# :q! # for quit without saving 
+
+#change to this 
+
+# onnx-file=yolo11s.pt.onnx 
+
+# go into deepstream_app_config.txt 
+
+# change line 59 to 
+
+# config-file=config_infer_primary_yoloV8.txt
