@@ -2,6 +2,11 @@
 
 This script sets up a full NVIDIA DeepStream + YOLO (Ultralytics YOLO11) environment, mainly targeting NVIDIA Jetson devices or systems running DeepStream SDK 7.1.
 
+### Requirement: 
+- Linux OS
+- Jetson Orin (or Nvidia board)
+- Cuda 12.6
+
 In simple terms, it:
 
 1. Builds and installs GLib 2.76.6 from source
